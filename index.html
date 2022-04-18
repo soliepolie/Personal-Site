@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Marisol Villalobos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <!-- ***DISPLAY***
+        paragraph elements: <p> are default blocking display elements
+        span elements: <span> are default inline display elements(just like image and
+        anchor tags, show up next to each other and don't block elements from
+        showing up on the line next to them) only take up as much space as it
+        needs to be but can't change the width
+        Display property: we can change this in any element. Different types
+        include inline, block, and inline-block
+        display: inline-block; will be displayed as inline elements and you can change
+        the width
+        display:none; will take it out of page as if never existed
+        visibility: hidden; will hide element but keep it's space as if it is still
+        there
+      ***POSITION***
+        static position: all HTML elements are static by default, go along with
+        HTML rules
+        relative position: (position: relative; left: 30px; this would place a
+        margin 30px from the left side of the element so that would move it to
+        the right) position element relative to how it would have been
+        positioned had it been static. This DOES NOT MOVE OTHER ELEMENTS.
+        absolute position: (position: absolute; right: 30px; this would move
+        element 30px to the right from the parent container, the parent container
+        can be the body of the page or a container that the elemnt is placed in)
+        using absolute position DOES EFFECT OTHER ELEMENTS AROUND IT.
+        fixed position: (position: fixed; top: 0; if your page scrolls, this
+        would keep the element fixed to where ever you specified the location)
+        -->
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Marisol.</h1>
+      <h2>a <span class="pro">pro</span>grammer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-image" src="images/MarisolV3.jpg" alt="profile-img">
+        <h2 class="header">Hello.</h2>
+        <p class="intro">I am an insurance agent at Gruene Insurance Services and am currently training to be a web developer.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2 class="header">My Skills.</h2>
+        <div class="skill-row">
+          <img class="write-img" src="images/signature.png" alt="skill-img">
+          <h3>Literature and Writing</h3>
+          <p>I studied English literature in university and was selected as Gemini Ink's 2021 mentee to study under novelist Kurt Caswell to prepare a manuscript for publishing.</p>
+        </div>
+        <div class="skill-row">
+          <img class="code-img" src="images/web-programming.png" alt="skill2-img">
+          <h3>Web Development</h3>
+          <p>I enrolled in The App Brewery's Full Stack Web Development course to train in web development.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2 class="header">Get In Touch</h2>
+        <h3>If you want to grow with me...</h3>
+        <p class="contact">Let's connect and see how close we can get to the sun.</p>
+        <a class="btn" href="mailto:mvlobos8@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="Linkedin" href="https://www.linkedin.com/in/villalobosm">LinkedIn</a>
+      <a class="Twitter" href="https://twitter.com/soliepolieolie">Twitter</a>
+      <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+      <p><a class="footer-link" href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by Icongeek26 and yut1655 - Flaticon</a></p>
+      <p class="copyright">© 2022 Marisol Villalobos.</p>
+    </div>
+
+  </body>
+</html>
